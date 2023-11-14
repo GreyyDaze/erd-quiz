@@ -8,13 +8,13 @@ const AppNavbar = () => {
       <Navbar.Brand href="#home" className="text-capitalize">Fastech</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="ms-auto">
           <Nav.Link href="#home" className="text-capitalize">Home</Nav.Link>
           <Nav.Link href="#myprofile" className="text-capitalize">My Profile</Nav.Link>
           <Nav.Link href="#activity" className="text-capitalize">Activity</Nav.Link>
           <Nav.Link href="#howitworks" className="text-capitalize">How It Works</Nav.Link>
         </Nav>
-        <Nav className="ml-4">
+        <Nav className="ms-auto">
           <Button variant="outline-light" className="mr-2 text-capitalize">Create</Button>
           <Button variant="dark" className="text-capitalize">Sign In</Button>
         </Nav>

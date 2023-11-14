@@ -1,0 +1,8 @@
+.btn-variant {
+  background: rgb(155, 81, 224);
+  background: linear-gradient(
+    90deg,
+    rgba(155, 81, 224, 1) 35%,
+    rgba(51, 127, 237, 1) 100%
+  );
+}
