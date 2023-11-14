@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import './styles/Welcome.css';
+import "./styles/Welcome.css";
 export const Discover = () => {
   return (
     <div className="my-5 text-white">
@@ -25,7 +25,10 @@ export const Discover = () => {
           {/* Card 1 */}
           <Col xs={12} md={6} lg={3} className="mb-3">
             <Card style={{ width: "17rem" }} bg="dark" className="text-white">
-              <Card.Img variant="top" src="./img/discover/unsplash_9AdeEdYB2yk.png" />
+              <Card.Img
+                variant="top"
+                src="./img/discover/unsplash_9AdeEdYB2yk.png"
+              />
               <Card.Body>
                 <div className="border-bottom mb-5">
                   <p className="d-inline-block me-5 ">Lorem Ipsum</p>
@@ -48,7 +51,10 @@ export const Discover = () => {
           {/* Card 2 */}
           <Col xs={12} md={6} lg={3} className="mb-3 ">
             <Card style={{ width: "17rem" }} bg="dark" className="text-white">
-              <Card.Img variant="top" src="./img/discover/unsplash_bU8TeXhsPcY.png" />
+              <Card.Img
+                variant="top"
+                src="./img/discover/unsplash_bU8TeXhsPcY.png"
+              />
               <Card.Body>
                 <div className="border-bottom mb-5">
                   <p className="d-inline-block me-5 ">Lorem Ipsum</p>
@@ -71,7 +77,10 @@ export const Discover = () => {
           {/* Card 3 */}
           <Col xs={12} md={6} lg={3} className="mb-3 ">
             <Card style={{ width: "17rem" }} bg="dark" className="text-white">
-              <Card.Img variant="top" src="./img/discover/unsplash_crs2vlkSe98.png" />
+              <Card.Img
+                variant="top"
+                src="./img/discover/unsplash_crs2vlkSe98.png"
+              />
               <Card.Body>
                 <div className="border-bottom mb-5">
                   <p className="d-inline-block me-5 ">Lorem Ipsum</p>
@@ -94,7 +103,10 @@ export const Discover = () => {
           {/* Card 4 */}
           <Col xs={12} md={6} lg={3} className="mb-3">
             <Card style={{ width: "17rem" }} bg="dark" className="text-white">
-              <Card.Img variant="top" src="./img/discover/unsplash_fg7J6NnebBc.png" />
+              <Card.Img
+                variant="top"
+                src="./img/discover/unsplash_fg7J6NnebBc.png"
+              />
               <Card.Body>
                 <div className="border-bottom mb-5">
                   <p className="d-inline-block me-5 ">Lorem Ipsum</p>
@@ -117,7 +129,10 @@ export const Discover = () => {
           {/* Card 5 */}
           <Col xs={12} md={6} lg={3} className="mb-3">
             <Card style={{ width: "17rem" }} bg="dark" className="text-white">
-              <Card.Img variant="top" src="./img/discover/unsplash_hoS3dzgpHzw.png" />
+              <Card.Img
+                variant="top"
+                src="./img/discover/unsplash_hoS3dzgpHzw.png"
+              />
               <Card.Body>
                 <div className="border-bottom mb-5">
                   <p className="d-inline-block me-5 ">Lorem Ipsum</p>
@@ -140,7 +155,10 @@ export const Discover = () => {
           {/* Card 6 */}
           <Col xs={12} md={6} lg={3} className="mb-3">
             <Card style={{ width: "17rem" }} bg="dark" className="text-white">
-              <Card.Img variant="top" src="./img/discover/unsplash_trYl7JYATH0.png" />
+              <Card.Img
+                variant="top"
+                src="./img/discover/unsplash_trYl7JYATH0.png"
+              />
               <Card.Body>
                 <div className="border-bottom mb-5">
                   <p className="d-inline-block me-5 ">Lorem Ipsum</p>
@@ -163,7 +181,10 @@ export const Discover = () => {
           {/* Card 7 */}
           <Col xs={12} md={6} lg={3} className="mb-3">
             <Card style={{ width: "17rem" }} bg="dark" className="text-white">
-              <Card.Img variant="top" src="./img/discover/unsplash_trYl7JYATH0.png" />
+              <Card.Img
+                variant="top"
+                src="./img/discover/unsplash_trYl7JYATH0.png"
+              />
               <Card.Body>
                 <div className="border-bottom mb-5">
                   <p className="d-inline-block me-5 ">Lorem Ipsum</p>
@@ -186,7 +207,10 @@ export const Discover = () => {
           {/* Card 8 */}
           <Col xs={12} md={6} lg={3} className="mb-3">
             <Card style={{ width: "17rem" }} bg="dark" className="text-white">
-              <Card.Img variant="top" src="./img/discover/unsplash_UD5drKd4H6w.png" />
+              <Card.Img
+                variant="top"
+                src="./img/discover/unsplash_UD5drKd4H6w.png"
+              />
               <Card.Body>
                 <div className="border-bottom mb-5">
                   <p className="d-inline-block me-5 ">Lorem Ipsum</p>
@@ -205,6 +229,10 @@ export const Discover = () => {
               </Card.Body>
             </Card>
           </Col>
+
+          <Container xs={12} md={6} lg={3} className="mb-3 ms-auto me-auto">
+            <Button variant="outline-light">Load More</Button>
+          </Container>
         </Row>
       </Container>
     </div>
