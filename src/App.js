@@ -1,13 +1,18 @@
 import "./App.css";
+import Auctions from "./components/Auctions";
+import { Discover } from "./components/Discover";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
+import AppNavbar from "./components/Navbar";
+import Welcome from "./components/Welcome";
+
 
 function App() {
   return (
     <div>
-      <Header />
-      <HeroSection />
+      <AppNavbar />
+      <Welcome />
+      <Auctions />
+      <Discover />
       <Footer />
     </div>
   );
